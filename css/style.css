@@ -1,9 +1,13 @@
 body {
     background-color: #eeeeee;
+}
+
+.clock-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .clock {
     width: 300px;
@@ -110,4 +114,12 @@ body {
     width: 10px;
     height: 35%;
     background-color: black;
+}
+
+.bottom-clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    font-size: 30px;
 }
